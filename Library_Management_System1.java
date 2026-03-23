@@ -82,7 +82,7 @@ public class Library_Management_System1
         PreparedStatement pst=con.prepareStatement(sql);
         pst.setInt(1,id);
         int rows=pst.executeUpdate();
-        System.out.println(rows>0?"Book returned to the library !!" : " Book not Returned to the library");
+        System.out.println(rows>0? "Book returned to the library !!" : " Book not Returned to the library");
     }
     catch(Exception z)
     {
