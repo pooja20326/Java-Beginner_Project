@@ -16,7 +16,7 @@ public class Connection1
             // Step 3 : IF CONNECTED
             if(con!=null)
             {
-                System.out.println(" Connected to PostgreSQL Successfully!!!!");
+                System.out.println(" Connected to PostgreSQL ");
             }
         }
         catch(SQLException e)
